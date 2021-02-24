@@ -8,4 +8,5 @@ describe('Scorecard', function() {
     it('starts an empty score card', function() {
         expect(scorecard.getscoreList()).toEqual([])
     });
+    
 });
