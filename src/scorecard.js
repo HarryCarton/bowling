@@ -6,4 +6,7 @@ class Scorecard{
     getscoreList() {
         return this.scoreList;
     };
+    addFrame(frame){
+        this.scoreList.push(frame)
+    };
 };

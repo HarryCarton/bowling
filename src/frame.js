@@ -10,5 +10,6 @@ class Frame{
     addScore(number){
         this.rolls.push(number)
     };
+    
 
 };
