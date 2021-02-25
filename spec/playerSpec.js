@@ -10,7 +10,7 @@ describe('Player', function(){
     expect(player.getName()).toEqual('Bowling pro')
   });
 
-  it('starts with an empty scorecard object', function(){
+  it('starts with a scorecard object', function(){
     expect(player.getscoreCard()).toBeInstanceOf(Scorecard)
   });
 
