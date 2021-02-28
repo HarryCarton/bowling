@@ -14,8 +14,12 @@ describe('Feature tests', function() {
         expect(scorecard.getscoreList()).toEqual([frame])
     });
 
-    it('can edit score list on player', function( ){
+    it('can edit score list on player', function(){
         player.getscoreCard().addFrame(frame);
         expect(player.getscoreCard().getscoreList()).toContain(frame)
     });
+
+    // it('can put in username and see name', function(){
+
+    // });
 });
